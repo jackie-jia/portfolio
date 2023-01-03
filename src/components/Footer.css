@@ -1,0 +1,6 @@
+footer {
+    display: flex;
+    font: 'Karla';
+    padding-bottom: 1rem;
+    margin-left: 5vw;
+}

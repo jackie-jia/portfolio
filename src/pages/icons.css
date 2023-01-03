@@ -1,0 +1,35 @@
+#gmail-contact {
+    /* width: 150%; */
+    /* max-width: 40px; */
+    max-height: 2.5vw;
+    /* max-height: 35px; */
+}
+
+#linkedin-contact {
+    padding-left: 3%;
+    width: 3vw;
+    /* width: 40px; */
+    height: auto;
+}
+
+#github-contact {
+    width: 4vw;
+    /* width: 50px; */
+    height: auto;
+    bottom: 3.5%;
+    margin-left: -2.5%;
+    position: absolute;
+}
+
+#github-project {
+    width: 40px;
+    height: auto;
+}
+
+.contact-icon {
+    opacity: 0.7;
+}
+.contact-icon:hover {
+    opacity: 1;
+}
+

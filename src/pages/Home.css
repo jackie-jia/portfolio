@@ -1,0 +1,108 @@
+/* intro styling */
+.intro-div {
+    display: flex;
+    justify-content: center;
+    /* padding-top: 17vh; */
+    padding-top: 10%;
+    gap: 2vw;
+}
+
+.intro-text-div {
+    /* margin-top: -5vh; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.5vw;
+}
+
+.intro-text {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    font-size: 4vw;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.handwritten {
+    max-width: 18vw;
+    height: auto;
+    /* margin-left: -1px; */
+    position: absolute;
+    right: 7%;
+    top: -25%;
+}
+
+.intro-subtext {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 2vw;
+    line-height: 1.5em;
+}
+
+.intro-icon {
+    width: 100%;
+    height: auto;
+}
+
+.brown-tag {
+    display: inline-block;
+    background-color: rgb(228, 230, 255);
+    /* background-color: rgb(254, 225, 225); */
+    /* background-color: rgb(255, 148, 148); */
+    border-radius: 20px;
+    font-weight: 400;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+}
+
+.brown-tag a {
+    text-decoration: none;
+    color: black;
+}
+
+.down-arrow {
+    display: flex;
+    justify-content: center;
+    max-width: 4vw;
+    /* max-height: 50px; */
+    height: auto;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12vh;
+    cursor: pointer;
+}
+
+.down-arrow {
+    opacity: 0.7;
+}
+.down-arrow:hover {
+    opacity: 1;
+}
+
+/* contact info styling */
+.intro-graphic {
+    max-width: 25%;
+    position: relative;
+    padding-right: 1rem;
+
+    /**/
+    display: flex;
+}
+
+.contact-info {
+    left: 13rem;
+    top: 15.5rem;
+
+    /**/
+    display: flex;
+    align-items: flex-end;
+    margin-left: -35%;
+    margin-bottom: 5%;
+}
+
+.projects-div {
+    margin-bottom: -2rem;
+}
