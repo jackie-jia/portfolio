@@ -6,14 +6,6 @@ import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  // <BrowserRouter>
-  //   {/* <React.StrictMode> */}
-  //   <Routes>
-  //     <Route exact path="/" element={<App />} />
-  //     <Route exact path="/about" element={<About />} />
-  //   </Routes>
-  //   {/* </React.StrictMode> */}
-  // </BrowserRouter>
   <React.StrictMode>
     <App/>
   </React.StrictMode>

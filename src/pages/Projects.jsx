@@ -24,7 +24,7 @@ function generateGithubLink(link) {
             )
         }
         return (
-            <a href={link}>
+            <a href={link} target="_blank" rel="noreferrer">
                 <Card.Img src={github} className='project-card-github github-icon icon' id='github-project'/>
             </a>
         )

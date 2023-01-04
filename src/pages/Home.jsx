@@ -27,13 +27,13 @@ function Main() {
           <div className='intro-graphic'>
             <img src={icon} className="intro-icon" alt="graphic of bear holding violin"></img>
             <div className='contact-info'>
-              <a href="mailto:jacqueline_jia@brown.edu">
+              <a href="mailto:jacqueline_jia@brown.edu" target="_blank" rel="noreferrer">
                 <img src={gmail} alt="jacqueline_jia@brown.edu" id="gmail-contact" className='icon contact-icon'></img>
               </a>
-              <a href="https://www.linkedin.com/in/jacqueline-jia-50132a42/">
+              <a href="https://www.linkedin.com/in/jacqueline-jia-50132a42/" target="_blank" rel="noreferrer">
                 <img src={linkedin} alt="https://www.linkedin.com/in/jacqueline-jia-50132a42/" id="linkedin-contact" className='icon contact-icon'></img>
               </a>
-              <a href="https://github.com/jackie-jia">
+              <a href="https://github.com/jackie-jia" target="_blank" rel="noreferrer">
                 <img src={github} alt="https://github.com/jackie-jia" id="github-contact" className='icon contact-icon github-icon'></img>
               </a>
             </div>
