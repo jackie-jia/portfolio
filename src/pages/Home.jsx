@@ -40,11 +40,13 @@ function Main() {
           </div>
           <div className="intro-text-div">
             <div className="intro-text">
-              Hi there! I'm
+              Hi there! <span>&nbsp;I'm</span>
               <img src={handwritten} alt="Jackie" className="handwritten"></img>
             </div>
             <div className="intro-subtext">
-              Software developer / neuroscientist / musician
+              <span>Software developer /</span>
+              <span class="spaced">&nbsp;neuroscientist /</span> 
+              <span class="spaced">&nbsp;musician</span>
               <br></br>
               <div className="brown-tag">
                 <a href="https://www.brown.edu/" target="_blank" rel="noreferrer">

@@ -2,13 +2,11 @@
 .intro-div {
     display: flex;
     justify-content: center;
-    /* padding-top: 17vh; */
     padding-top: 10%;
     gap: 2vw;
 }
 
 .intro-text-div {
-    /* margin-top: -5vh; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,7 +25,6 @@
 .handwritten {
     max-width: 18vw;
     height: auto;
-    /* margin-left: -1px; */
     position: absolute;
     right: 7%;
     top: -25%;
@@ -48,8 +45,6 @@
 .brown-tag {
     display: inline-block;
     background-color: rgb(228, 230, 255);
-    /* background-color: rgb(254, 225, 225); */
-    /* background-color: rgb(255, 148, 148); */
     border-radius: 20px;
     font-weight: 400;
     padding-left: 0.5vw;
@@ -65,7 +60,6 @@
     display: flex;
     justify-content: center;
     max-width: 4vw;
-    /* max-height: 50px; */
     height: auto;
     width: auto;
     display: block;
@@ -86,7 +80,6 @@
 .intro-graphic {
     max-width: 25%;
     position: relative;
-    /* padding-right: 1rem; */
 
     /**/
     display: flex;
@@ -99,7 +92,6 @@
     /**/
     display: flex;
     align-items: flex-end;
-    /* display: inline-block; */
     margin-left: -35%;
     margin-bottom: 5%;
 }
@@ -107,3 +99,53 @@
 .projects-div {
     margin-bottom: -2rem;
 }
+
+@media only screen and (max-width: 420px) {
+    .intro-text {
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        font-size: 7vw;
+    }
+
+    .intro-text span {
+        margin-left: -0.4rem;
+    }
+
+    .spaced {
+        margin-left: -0.3rem;
+    }
+
+    .intro-subtext {
+        font-size: 4vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .intro-subtext br {
+        display: none;
+    }
+
+    .brown-tag {
+        margin-left: -0.2rem;
+    }
+
+    .handwritten {
+        max-width: 27vw;
+        top: 42%;
+        right: 5%;
+    }
+    
+    .down-arrow {
+        max-width: 5.5vw;
+    }
+    
+    .intro-graphic {
+        max-width: 30%;
+    }
+
+    .intro-div {
+        gap: 4vw;
+    }
+}
+

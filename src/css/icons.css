@@ -31,3 +31,20 @@
 .contact-icon:hover {
     opacity: 1;
 }
+
+
+@media only screen and (max-width: 420px) {
+    #gmail-contact {
+        bottom: 25%;
+        max-height: 3vw;
+    }
+    #github-contact {
+        bottom: 24%;
+        width: 5vw;
+        margin-left: 20%;
+    }
+    #linkedin-contact {
+        width: 4vw;
+        bottom: 24.75%;
+    }
+}
