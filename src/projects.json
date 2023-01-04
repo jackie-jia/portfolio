@@ -3,7 +3,7 @@
         "title": "Global Directory Filtered Export",
         "company": "Qualtrics",
         "techStack": ["Java", "Javascript"],
-        "image": "images/qualtrics-ex.jpeg",
+        "image": "https://jackie-jia.github.io/portfolio/images/qualtrics-ex.jpeg",
         "description": "Software development internship on the Employee Experience team at Qualtrics. Developed a full stack filtered export workflow using Java (Spring) and Javascript.",
         "github_link": "None"
     },
