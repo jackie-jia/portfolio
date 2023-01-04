@@ -1,7 +1,7 @@
 import {useRef} from 'react';
-import './Home.css'
-import './icons.css'
-import './Projects'
+import '../css/Home.css'
+import '../css/icons.css'
+import '../components/Projects'
 import down from '../assets/down.png';
 import icon from '../assets/Asset 5.svg';
 import gmail from '../assets/mail-2569.svg'
@@ -9,7 +9,7 @@ import linkedin from '../assets/icons8-linkedin (1).svg'
 import github from '../assets/icons8-github.svg'
 import handwritten from '../assets/handwritten_.png'
 import Header from '../components/Header';
-import Projects from './Projects';
+import Projects from '../components/Projects';
 import Footer from '../components/Footer';
 
 function Main() {

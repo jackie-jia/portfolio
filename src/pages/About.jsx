@@ -1,5 +1,5 @@
 import pic from "../assets/headshot.jpg"
-import "./About.css"
+import "../css/About.css"
 import Header from "../components/Header"
 
 function About() {

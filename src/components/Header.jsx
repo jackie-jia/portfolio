@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import './Header.css'
+import '../css/Header.css'
 import seal_hover from '../assets/seal_filled.jpg';
 import seal from '../assets/seal_border.jpg';
 

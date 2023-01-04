@@ -1,8 +1,8 @@
 import Card from 'react-bootstrap/Card';
 import projectData from '../projects.json'
 import github from '../assets/icons8-github.svg'
-import './icons.css'
-import './Projects.css'
+import '../css/icons.css'
+import '../css/Projects.css'
 
 function generateTags(stack) {
     const tags = []
