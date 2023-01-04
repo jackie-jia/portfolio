@@ -3,7 +3,7 @@
         "title": "Global Directory Filtered Export",
         "company": "Qualtrics",
         "techStack": ["Java", "Javascript"],
-        "image": "./images/qualtrics-ex.jpeg",
+        "image": "images/qualtrics-ex.jpeg",
         "description": "Software development internship on the Employee Experience team at Qualtrics. Developed a full stack filtered export workflow using Java (Spring) and Javascript.",
         "github_link": "None"
     },
@@ -11,7 +11,7 @@
         "title": "FollowUp",
         "company": "N/A",
         "techStack": ["Java", "React", "Typescript", "Firebase"],
-        "image": "./images/followup-logo.jpeg",
+        "image": "images/followup-logo.jpeg",
         "description": "A webapp designed to bridge the communication gap between Parkinson's patients and neurologists through a symptom monitoring interface.",
         "github_link": "https://github.com/jackie-jia/followup"
     },
@@ -19,7 +19,7 @@
         "title": "Medical Image Segmentation",
         "company": "N/A",
         "techStack": ["Python", "Tensorflow"],
-        "image": "./images/image-segmentation.png",
+        "image": "images/image-segmentation.png",
         "description": "Deep learning model that combines recurrent, residual, and convolution networks to identify skin lesion boundaries.",
         "github_link": "https://github.com/fvidhani/csci1470-medical-image-segmentation"
     },
@@ -27,7 +27,7 @@
         "title": "Multi-threaded Database",
         "company": "N/A",
         "techStack": ["C"],
-        "image": "./images/database-pic.png",
+        "image": "images/database-pic.png",
         "description": "A server that can handle database queries (add, query, delete) from multiple concurrent clients.",
         "github_link": "Contact me for repo!"
     }
