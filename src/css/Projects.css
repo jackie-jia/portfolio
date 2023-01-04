@@ -135,4 +135,8 @@
         padding-top: 0px;
         row-gap: 5vw;
     }
+
+    #project-card-github-restricted {
+        font-size: 15px;
+    }
 }

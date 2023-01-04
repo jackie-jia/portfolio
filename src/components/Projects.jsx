@@ -20,7 +20,7 @@ function generateGithubLink(link) {
     if (link !== "None") {
         if (link === "Contact me for repo!") {
             return (
-                <Card.Text className='project-card-text'>(Contact me for repo!)</Card.Text>
+                <Card.Text className='project-card-text' id="project-card-github-restricted">(Contact me for repo!)</Card.Text>
             )
         }
         return (
