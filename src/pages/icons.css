@@ -3,13 +3,18 @@
     /* max-width: 40px; */
     max-height: 2.5vw;
     /* max-height: 35px; */
+    bottom: 5%;
+    position: absolute;
 }
 
 #linkedin-contact {
-    padding-left: 3%;
+    /* padding-left: 5%; */
+    margin-left: 10%;
     width: 3vw;
     /* width: 40px; */
+    bottom: 5%;
     height: auto;
+    position: absolute;
 }
 
 #github-contact {
@@ -17,7 +22,7 @@
     /* width: 50px; */
     height: auto;
     bottom: 3.5%;
-    margin-left: -2.5%;
+    margin-left: 19%;
     position: absolute;
 }
 
@@ -33,3 +38,8 @@
     opacity: 1;
 }
 
+@media only screen and (max-width: 658px) {
+    /* [id*="github-contact"] {
+        bottom: 5%;
+    } */
+}

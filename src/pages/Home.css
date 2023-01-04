@@ -86,7 +86,7 @@
 .intro-graphic {
     max-width: 25%;
     position: relative;
-    padding-right: 1rem;
+    /* padding-right: 1rem; */
 
     /**/
     display: flex;
@@ -99,6 +99,7 @@
     /**/
     display: flex;
     align-items: flex-end;
+    /* display: inline-block; */
     margin-left: -35%;
     margin-bottom: 5%;
 }

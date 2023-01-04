@@ -9,7 +9,7 @@
     padding-top: 10vh;
     padding-bottom: 10vh;
     justify-content: center;
-    margin: auto;
+    /* margin: auto; */
 }
 
 .project-img {
@@ -37,7 +37,7 @@
 .project-card {
     font-family: 'Lato';
     height: 100%;
-    min-width: 30rem;
+    min-width: 270px;
     /* creating 3d effect */
     --c: #03051e; /* the color #1095c1 #596e79 #03051e #213458*/  
     --b: .015em;    /* border length*/
@@ -102,7 +102,7 @@
 
 .project-card-tag {
     background-color: #382369;
-    font-size:calc(10px + 0.5vw);
+    font-size: calc(10px + 0.5vw);
     color: white;
     border-radius: 0.5rem;
     padding-left: 1vw;
@@ -125,4 +125,19 @@
 
 #project-card-description {
     font-size:calc(12px + 0.5vw);
+}
+
+@media only screen and (max-width: 420px) {
+    /* [class*="project-card"] {
+        min-width: 80%;
+        max-height: 10%;
+    } */
+
+    [class*="project-img"] {
+        max-height: 200px;
+    }
+
+    [class*="project-section"] {
+        padding-top: 0px;
+    }
 }
