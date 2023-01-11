@@ -5,15 +5,18 @@
         "techStack": ["Java", "Javascript"],
         "image": "https://jackie-jia.github.io/portfolio/images/qualtrics-ex.jpeg",
         "description": "Software development internship on the Employee Experience team at Qualtrics. Developed a full stack filtered export workflow using Java (Spring) and Javascript.",
-        "github_link": "None"
+        "github_link": "None",
+        "website_link": "None"
     },
     {
         "title": "A Prima Vista",
         "company": "N/A",
         "techStack": ["React.js", "Python (Flask)"],
-        "image": "https://jackie-jia.github.io/portfolio/images/a-prima-vista.png",
+        "image": "./images/a-prima-vista.png",
         "description": "A search engine for classical music. Inspired by my personal struggle to find new music to play.",
-        "github_link": "https://github.com/jackie-jia/a-prima-vista"
+        "github_link": "https://github.com/jackie-jia/a-prima-vista",
+        "website_link": "https://a-prima-vista.netlify.app/"
+        
     },
     {
         "title": "FollowUp",
@@ -21,7 +24,8 @@
         "techStack": ["Java", "React", "Typescript", "Firebase"],
         "image": "https://jackie-jia.github.io/portfolio/images/followup-logo.jpeg",
         "description": "A webapp designed to bridge the communication gap between Parkinson's patients and neurologists through a symptom monitoring interface.",
-        "github_link": "https://github.com/jackie-jia/followup"
+        "github_link": "https://github.com/jackie-jia/followup",
+        "website_link": "None"
     },
     {
         "title": "Medical Image Segmentation",
@@ -29,7 +33,8 @@
         "techStack": ["Python", "Tensorflow"],
         "image": "https://jackie-jia.github.io/portfolio/images/image-segmentation.png",
         "description": "Deep learning model that combines recurrent, residual, and convolution networks to identify skin lesion boundaries.",
-        "github_link": "https://github.com/fvidhani/csci1470-medical-image-segmentation"
+        "github_link": "https://github.com/fvidhani/csci1470-medical-image-segmentation",
+        "website_link": "None"
     },
     {
         "title": "Multi-threaded Database",
@@ -37,6 +42,7 @@
         "techStack": ["C"],
         "image": "https://jackie-jia.github.io/portfolio/images/database-pic.png",
         "description": "A server that can handle database queries (add, query, delete) from multiple concurrent clients.",
-        "github_link": "Contact me for repo!"
+        "github_link": "Contact me for repo!",
+        "website_link": "None"
     }
 ]
