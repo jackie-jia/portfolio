@@ -8,6 +8,14 @@
         "github_link": "None"
     },
     {
+        "title": "A Prima Vista",
+        "company": "N/A",
+        "techStack": ["React.js", "Python (Flask)"],
+        "image": "https://jackie-jia.github.io/portfolio/images/a-prima-vista.png",
+        "description": "A search engine for classical music. Inspired by my personal struggle to find new music to play.",
+        "github_link": "https://github.com/jackie-jia/a-prima-vista"
+    },
+    {
         "title": "FollowUp",
         "company": "N/A",
         "techStack": ["Java", "React", "Typescript", "Firebase"],
