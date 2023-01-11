@@ -12,7 +12,7 @@
         "title": "A Prima Vista",
         "company": "N/A",
         "techStack": ["React.js", "Python (Flask)"],
-        "image": "./images/a-prima-vista.png",
+        "image": "https://jackie-jia.github.io/portfolio/images/a-prima-vista.png",
         "description": "A search engine for classical music. Inspired by my personal struggle to find new music to play.",
         "github_link": "https://github.com/jackie-jia/a-prima-vista",
         "website_link": "https://a-prima-vista.netlify.app/"
