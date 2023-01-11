@@ -1,8 +1,9 @@
 import Card from 'react-bootstrap/Card';
-import projectData from '../projects.json'
-import github from '../assets/icons8-github.svg'
-import '../css/icons.css'
-import '../css/Projects.css'
+import projectData from '../projects.json';
+import github from '../assets/icons8-github.svg';
+import linkIcon from '../assets/icons8-dynamic-links.svg';
+import '../css/icons.css';
+import '../css/Projects.css';
 
 function generateTags(stack) {
     const tags = []
@@ -31,14 +32,25 @@ function generateGithubLink(link) {
     }
 }
 
+function generateWebsiteLink(link) {
+    if (link !== "None") {
+        return (
+            <a href={link} target="_blank" rel="noreferrer">
+                <Card.Img src={linkIcon} className='project-card-link link-icon icon' id='link-icon-project'/>
+            </a>
+        )
+    }
+}
+
 function ProjectCard(props) {
     return (
         <Card className='project-card' style={{ width: '40vw' }}>
             <Card.Img className='project-img' id={props.project.title + '-img'} src={props.project.image} variant="top"/>
             <Card.Body className='project-card-body'>
-                <div className='project-card-title-and-github'>
+                <div className='project-card-title-and-links'>
                     <Card.Title className='project-card-title'>{props.project.title}</Card.Title>
                     {generateGithubLink(props.project.github_link)}
+                    {generateWebsiteLink(props.project.website_link)}
                 </div>
                 <div className='project-card-tag-group'>
                     {generateTags(props.project.techStack)}

@@ -115,7 +115,7 @@
     font-size:calc(15px + 1vw);
 }
 
-.project-card-title-and-github {
+.project-card-title-and-links {
     display: flex;
     flex-wrap: wrap;
     align-items: center;

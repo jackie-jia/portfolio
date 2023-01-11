@@ -25,6 +25,11 @@
     height: auto;
 }
 
+#link-icon-project {
+    width: 35px;
+    height: auto;
+}
+
 .contact-icon {
     opacity: 0.7;
 }
