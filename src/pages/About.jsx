@@ -46,13 +46,13 @@ function About() {
                         </p>
                         <iframe className="video" width="560" height="315" src="https://www.youtube.com/embed/fwFyI4mcE6Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                    <div className="writing-div">
+                    {/* <div className="writing-div">
                         <h1 className="creative-heading" id="writing">Works in Progress</h1>
                         <div className="doc-tags">
                             <a id="doc-link" href="https://docs.google.com/document/d/13Z-PmuYVtn8fre405CA1QxVOM1mSJm0ouTI0dIcbyLU/edit?usp=sharing" target="_blank" rel="noreferrer">A Nation in Dance</a>
                             <a id="doc-link" href="https://docs.google.com/document/d/1GHnvzRJXikcLkBs1qz8oXpqoZx99Owsw3K6-bViOkY4/edit?usp=sharing" target="_blank" rel="noreferrer">In Perpetuity</a>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
