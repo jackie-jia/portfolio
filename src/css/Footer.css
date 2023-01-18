@@ -1,5 +1,6 @@
 footer {
     display: flex;
+    justify-content: center;
     font: 'Karla';
     padding-bottom: 1rem;
     margin-left: 5vw;
